@@ -5,7 +5,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    cursor: url('img/Cursor..cur'), auto;
+    cursor: url('img/Cursor..cur') 16 16, auto;
 }
 .container {
     padding: 20px;
