@@ -5,7 +5,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    cursor: url('img/Cursor..cur') 8 8, auto;
+    cursor: url('img.your-cursor.png'), auto;
 }
 .container {
     padding: 20px;
@@ -56,3 +56,38 @@ body {
 .info:hover, .extra-info:hover {
     transform: scale(1.05);
 }
+.button-container {
+    flex-direction: column;
+    gap: 20px;
+}
+.social-button {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: var(--button-width, 150px);
+    padding: var(--button-padding, 10px);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: var(--font-size, 25px);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-button img {
+    align-items: center;
+    justify-content: center;
+    width: var(--icon-size, 20px);
+    height: var(--icon-size, 20px);
+}
+.youtube { background-color: #FF0000; width: 15px; padding: 15px; }
+.instagram { background-color: #C13584; width: 15px; padding: 15px; }
+.tiktok { background-color: #000000; width: 15px; padding: 15px; }
+.discord { background-color: #7289DA; width: 15px; padding: 15px; }
+.steam { background-color: #171a21; width: 15px; padding: 15px; }
+.Telegram { background-color: #0088cc; width: 15px; padding: 15px; }
+.x { background-color: #000000; width: 15px; padding: 15px; }
+.pinterest { background-color: #e60023; width: 15px; padding: 15px; }
+.twich { background-color: #9146ff; width: 15px; padding: 15px; }
+.tree { background-color: #009c17; width: 15px; padding: 15px; }
+.spotify { background-color: #1db954; width: 15px; padding: 15px; }
